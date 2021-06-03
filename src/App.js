@@ -16,17 +16,17 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <Navbar />
-      <HeroSection />
-      <CardsSection />
-      <InfoSection/>
-      <WorkSection />
-      <Testimonials />
-      <PricingSection />
-      <NumberSection />
-      <Blog/>
-      <Contact/>
-      <Footer />
+        <Navbar />
+        <HeroSection />
+        <CardsSection />
+        <InfoSection/>
+        <WorkSection />
+        <Testimonials />
+        <PricingSection />
+        <NumberSection />
+        <Blog/>
+        <Contact/>
+        <Footer />
     </React.Fragment>
   );
 }
