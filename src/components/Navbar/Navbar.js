@@ -9,9 +9,6 @@ const Navbar = () => {
         setOpen(!open)
     }
 
-    const handleSetActive = (to) => {
-        console.log(to);
-      }
 
     return (
         <section id='navbar'>

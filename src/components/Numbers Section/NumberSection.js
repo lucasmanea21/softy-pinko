@@ -1,9 +1,8 @@
-import React,{useState, useEffect} from 'react'
+import React from 'react'
 import * as Cp from './SectionComponents'
 import CountUp from 'react-countup';
 import {numbersData} from '../Data'
 import { Fade } from 'react-reveal';
-import ReactVisibilitySensor from 'react-visibility-sensor';
 
 const NumberSection = () => {
     const items = numbersData.map((item,index) => {
@@ -15,7 +14,7 @@ const NumberSection = () => {
             <p>{item.title}</p>
         </Cp.Item>
         {!(index === length - 1) &&
-            <div id='image'><img src='https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/circle-dec.png' /> </div>
+            <div id='image'><img src='https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/circle-dec.png' alt='circle'/> </div>
         }
         </React.Fragment>
     )})

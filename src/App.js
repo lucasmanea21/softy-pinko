@@ -11,7 +11,6 @@ import NumberSection from './components/Numbers Section/NumberSection'
 import Blog from './components/Blog Entries/Blog';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import {Link} from 'react-scroll'
 
 const App = () => {
 

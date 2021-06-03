@@ -3,7 +3,6 @@ import Card from '../Cards/Pricing Card/Card'
 import { DescWrapper, TitleWrapper } from '../InfoSection/InfoComponents'
 import * as Cp from './PricingComponents'
 import {pricingData} from '../Data'
-import Fade from 'react-reveal'
 
 const PricingSection = () => {
     const cards = pricingData.map((item) => (

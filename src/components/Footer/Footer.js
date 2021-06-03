@@ -1,6 +1,5 @@
 import React from 'react'
 import * as Cp from './FooterComponents'
-import {FaFacebookF} from 'react-icons/fa'
 import {socialData} from '../Data'
 
 const Footer = () => {
