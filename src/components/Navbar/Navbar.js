@@ -37,13 +37,13 @@ const Navbar = () => {
                 </Cp.MobileWrapper>
             </Cp.ContentWrapper>
             <Cp.DropdownMenu open={open}>
-                    <Cp.DropdownItem to="hero" spy={true} smooth={true} offset={50} duration={500}  onClick={toggle}><p>Home</p></Cp.DropdownItem>
-                    <Cp.DropdownItem to="about" spy={true} smooth={true}  offset={50} duration={500} onClick={toggle}><p>About</p></Cp.DropdownItem>
-                    <Cp.DropdownItem to="work" spy={true} smooth={true} offset={50} duration={500} onClick={toggle}><p>Work Process</p></Cp.DropdownItem>
-                    <Cp.DropdownItem to="testimonials" spy={true} smooth={true} offset={50} duration={500} onClick={toggle}><p>Testimonials</p></Cp.DropdownItem>
-                    <Cp.DropdownItem to="plans" spy={true} smooth={true} offset={50} duration={500} onClick={toggle}><p>Pricing Tables</p></Cp.DropdownItem>
-                    <Cp.DropdownItem to="blog" spy={true} smooth={true} offset={50} duration={500} onClick={toggle}><p>Blog Entries</p></Cp.DropdownItem>
-                    <Cp.DropdownItem to="contact"  spy={true} smooth={true} offset={50} duration={500} onClick={toggle}><p>Contact Us</p></Cp.DropdownItem>
+                    <Cp.DropdownItem to="hero" spy={true} smooth={true} offset={-50} duration={500}  onClick={toggle}><p>Home</p></Cp.DropdownItem>
+                    <Cp.DropdownItem to="about" spy={true} smooth={true}  offset={-50} duration={500} onClick={toggle}><p>About</p></Cp.DropdownItem>
+                    <Cp.DropdownItem to="work" spy={true} smooth={true} offset={-50} duration={500} onClick={toggle}><p>Work Process</p></Cp.DropdownItem>
+                    <Cp.DropdownItem to="testimonials" spy={true} smooth={true} offset={-50} duration={500} onClick={toggle}><p>Testimonials</p></Cp.DropdownItem>
+                    <Cp.DropdownItem to="plans" spy={true} smooth={true} offset={-50} duration={500} onClick={toggle}><p>Pricing Tables</p></Cp.DropdownItem>
+                    <Cp.DropdownItem to="blog" spy={true} smooth={true} offset={-50} duration={500} onClick={toggle}><p>Blog Entries</p></Cp.DropdownItem>
+                    <Cp.DropdownItem to="contact"  spy={true} smooth={true} offset={-50} duration={500} onClick={toggle}><p>Contact Us</p></Cp.DropdownItem>
             </Cp.DropdownMenu>  
         </Cp.Nav>
         </Cp.NavWrapper>
